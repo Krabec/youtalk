@@ -16,14 +16,20 @@
 }
 
 .header-navigation {
+    font-family: 'Montserrat Medium', Arial, Helvetica, sans-serif;
+    font-weight: 500;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
 .button-header {
+    font-family: 'Montserrat Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
     height: 48px;
     width: 19%;
+    font-size: 16px;
     background-color: #E3F5F5;
     color: #03B2A5;
+    font-weight: bold;
 }

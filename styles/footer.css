@@ -19,6 +19,8 @@
 .footer-navigation {
     font-size: 16px;
     font-weight: bold;
+    font-family: 'Montserrat Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
     height: 190px;
     width: 310px;
     display: flex;
@@ -34,6 +36,7 @@
     width: 486px;
     height: 170px;
 }
+
 
 .email-button {
     background-color: #16C8BB;
@@ -52,6 +55,11 @@
     border: none;
     height: 48px;
     border-radius: 4px;
+
+    font-size: 14px;
+    font-family: 'Monserrat Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 form {
@@ -63,10 +71,18 @@ form {
 
 .email h3 {
     font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 26px;
 }
 
 .email p {
     font-size: 12px;
+    font-weight: normal;
+    font-family: 'Monserrat Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 18px;
 }
 
 .logo-participants {
@@ -90,6 +106,9 @@ form {
 .footer-end {
     font-size: 14px;
     font-weight: normal;
+    font-family: 'Monserrat Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
     display: flex;
     margin-top: 16px;
     margin-bottom: 17px;
