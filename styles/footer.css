@@ -1,0 +1,100 @@
+.footer {
+    color: #FFFFFF;
+    background-color: #2963A3;
+    /* height: 302px; */
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-start {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-bottom: 1px solid #9D9D9D;
+}
+
+.footer-navigation {
+    font-size: 16px;
+    font-weight: bold;
+    height: 190px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer-navigation_item {
+    margin-bottom: 16px;
+}
+
+.email {
+    width: 486px;
+    height: 170px;
+}
+
+.email-button {
+    background-color: #16C8BB;
+    height: 48px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-left: -4px;
+}
+
+.email-input {
+    color: #9D9D9D;
+    font-size: 14px;
+    padding: 16px 14px;
+    width: 324px;
+    border: none;
+    height: 48px;
+    border-radius: 4px;
+}
+
+form {
+    margin-top: 8px;
+    display: flex;
+    height: 48px;
+    margin-bottom: 8px;
+}
+
+.email h3 {
+    font-size: 18px;
+}
+
+.email p {
+    font-size: 12px;
+}
+
+.logo-participants {
+    display: flex;
+    align-items: center;
+}
+
+.logo-participants svg {
+    margin-right: 8px;
+}
+
+.messendge-button {
+    display: flex;
+    margin-top: 40px;
+}
+
+.messendge-button li {
+    margin-right: 16px;
+}
+
+.footer-end {
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}
+
+.footer-end li {
+    margin-right: 48px;
+}

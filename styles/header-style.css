@@ -1,0 +1,29 @@
+.header {
+    border-bottom: 1px solid #EFF5FB;
+    margin-bottom: 16px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+}
+
+
+.nav {
+    width: 60%;
+}
+
+.header-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-header {
+    height: 48px;
+    width: 19%;
+    background-color: #E3F5F5;
+    color: #03B2A5;
+}
