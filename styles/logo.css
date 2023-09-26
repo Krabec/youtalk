@@ -1,9 +1,9 @@
 .eggs {
-    background-image: url('../images/eggs.png');
+    background: url('../images/eggs.png') center/100% 100% no-repeat;
 }
 
 .legs {
-    background-image: url('../images/legs.png');
+    background: url('../images/legs.png') center/100% 100% no-repeat;
 }
 
 .anger {

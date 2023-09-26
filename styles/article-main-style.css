@@ -1,0 +1,210 @@
+.container-content {
+    width: 690px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wey {
+    height: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'Monserrat Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.wey a {
+    color: #333333B3;
+}
+
+.wey svg {
+    margin-left: 4px;
+    margin-right: 8px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Monserrat Medium', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.content .autor {
+    margin-bottom: 24px;
+
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Monserrat Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #494949;
+} 
+
+.content h1{
+    margin-bottom: 16px;
+
+    font-size: 48px;
+    font-family: 'Montserrat Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.calmness {
+    background: center/100% 100% no-repeat;
+    height: 331px;
+    margin-bottom: 24px;
+}
+
+ li li {
+    margin-left: 10px;
+}
+
+.content ul {
+    margin-left: 18px;
+    list-style-image:url('../images/ellipse.png');
+}
+
+.soder li {
+    margin-top: 8px;
+}
+
+.soder a {
+    border-bottom: 1px solid black;
+}
+
+.content li > ul {
+    list-style: none;
+}
+
+.soder {
+    margin-bottom: 24px;
+}
+
+.content h3 {
+    margin-bottom: 16px;
+
+    font-size: 24px;
+    font-family: 'Montserrat Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.content p {
+    margin-bottom: 24px;
+}
+
+.blue {
+    margin-bottom: 24px;
+    
+    border-radius: 16px;
+    height: 162px;
+    padding: 24px;
+    background: url('../images/cav.svg') 56px 36px no-repeat;
+    background-position: top 24px left 24px;
+    background-color: #F3F7FE;
+}
+
+.blue p {
+    margin-bottom: 8px;
+}
+
+.content  > ul > li {
+    margin-bottom: 16px;
+}
+
+.people {
+    background: center/100% 100% no-repeat;
+    height: 331px;
+    margin-bottom: 16px;
+}
+
+.image-peole {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Monserrat Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 130%;
+    color: #868686;
+
+    margin-bottom: 24px;
+}
+
+.text-oval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 168px;
+    background: url('../images/oval.png') center/240px 168px no-repeat;
+    margin-bottom: 24px;
+}
+
+.text-oval p{
+    width: 485px;
+}
+
+.collum {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.collum p {
+    width: 385px;
+}
+
+.madam {
+    width: 282px;
+    height: 380px;
+    background: url('../images/madam.png') center/100% 100% no-repeat;
+}
+
+.exercise {
+    background-color: #FEFAEC;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.exercise h4 {
+    margin-bottom: 8px;
+}
+
+.exercise p {
+    margin-bottom: 0;
+}
+
+.hands {
+    width: 281px;
+    background: url('../images/hands.png') center/100% 100% no-repeat;
+}
+
+.exercise.color {
+    background-color: #FFF3EB;
+}
+
+.collums p{
+    width: 333px;
+}
+
+.collums img {
+    margin-bottom: 24px;
+}
+
+.content svg{
+    align-self: center;
+    margin-bottom: 24px;
+}
+
+.exercise.color-grin {
+    background-color: #03B2A51A;
+}
