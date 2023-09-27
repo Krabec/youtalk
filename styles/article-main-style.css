@@ -179,6 +179,13 @@
     margin-bottom: 24px;
 }
 
+h4 {
+    font-size: 16px;
+    font-family: 'Montserrat Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+}
+
 .exercise h4 {
     margin-bottom: 8px;
 }
@@ -245,11 +252,155 @@
 }
 
 .container-aside {
+    margin-top: 72px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 282px;
+    justify-content: flex-start;
+
+    font-size: 14px;
+    font-family: 'Monserrat Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
 }
 
+.container-aside-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 24px;
+}
 
+.container-aside-div p, .container-aside-div img {
+    margin-bottom: 24px;
+}
 
+.container-aside-div h4 {
+    margin-bottom: 8px;
+}
 
+.qlick {
+    background-color: #E6F0FD;
+    padding: 24px;
+    height: 487px;
+}
+
+.button-aside {
+    height: 48px;
+    width: 234px;
+    border-radius: 4px;
+    background-color: #35B3A9;
+    color: #FFFFFF;
+
+    font-family: 'Montserrat Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.psychologist {
+    width: 100%;
+    padding: 16px;
+    height: 481px;
+    border: 1px solid #DEDEDE;
+}
+
+.psychologist img {
+    margin-top: -50px;
+    border-radius: 50%;
+} 
+
+.container-aside-div-info-psychologist {
+    width: 250px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.container-aside-div-info-psychologist h3 {
+    font-family: 'Montserrat Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.container-aside-div-info-psychologist p {
+    color: #A2A7B1;
+    margin-bottom: 16px;
+}
+
+.container-aside-div-info-work {
+    margin-top: 16px;
+    text-align: left;
+}
+
+.container-aside-div-info-work li {
+    list-style-image:url('../images/ellipse.png');
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+.container-aside-div-info-work li:last-child {
+    margin-bottom: 20px;
+}
+.container-aside-div-button {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    align-items: start;
+}
+.container-aside-div-button button {
+    margin-bottom: 8px;
+    background-color: #F3F4F8B3;
+    padding: 3px 6px;
+    border-radius: 6px;
+}
+
+.present {
+    width: 282px;
+    height: 280px;
+    background: url('../images/present.png') center/100% 100% no-repeat;
+}
+
+.sale {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 32px;
+    height: 304px;
+    border: 1px solid #DEDEDE;
+    background: url('../images/mask.png') center/100% 100% no-repeat;
+}
+
+.container-aside .sale {
+    text-align: left;
+}
+
+.sale h4{
+    color: #2963A3;
+    font-family: 'Montserrat Bold', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 16px;
+}
+
+.sale h3{ 
+    font-family: 'Montserrat Bold', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 16px;
+}
+
+.button-aside.sale-button {
+    width: 108px;
+}
