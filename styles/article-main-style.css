@@ -29,6 +29,10 @@
     margin-left: 4px;
     margin-right: 8px;
 }
+
+.container {
+    border-bottom: 1px solid #DEDEDE;
+}
 .content {
     display: flex;
     flex-direction: column;
@@ -208,3 +212,44 @@
 .exercise.color-grin {
     background-color: #03B2A51A;
 }
+
+.end-content{
+    margin-bottom: 48px;
+}
+
+.content .end-content-ul {
+    margin-left: 8px;
+    color: #2963A3;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: inside;
+}
+
+.content .end-content-li {
+    font-size: 14px;
+    font-family: 'Monserrat Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+    margin-left: 8px;
+}
+
+.content .end-content-li:first-child {
+    margin-left: 0;
+    list-style: none;
+}
+
+.container-main {
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-aside {
+    display: flex;
+    flex-wrap: wrap;
+    width: 282px;
+}
+
+
+
+
